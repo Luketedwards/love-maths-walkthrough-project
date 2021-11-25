@@ -13,8 +13,10 @@ document.addEventListener("DOMContentLoaded", function(){
     } 
 })
 
+/** creates 2 random numbers between 1 and 25 */
 function runGame(){
-
+    let num1 = Math.floor(Math.random() *25) +1;
+    let num2 = Math.floor(Math.random() *25) +1;
 }
 
 function checkAnswer(){
